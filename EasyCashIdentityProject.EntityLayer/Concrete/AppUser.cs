@@ -14,5 +14,6 @@ namespace EasyCashIdentityProject.EntityLayer.Concrete
         public string District { get; set; }//kasaba ilce anlamına geliyor
         public string City { get; set; }
         public string ImgageUrl { get; set; }
+        public List<CustomerAccount> CustemerAccount { get; set; }
     }
 }
